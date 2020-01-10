@@ -30,7 +30,7 @@
 
 Name:           gnu-getopt
 Version:        1.0.14
-Release:        4%{?dist}
+Release:        5%{?dist}
 Epoch:          0
 Summary:        Java getopt implementation
 License:        LGPLv2+
@@ -97,6 +97,9 @@ cp -pr build/api/* %{buildroot}%{_javadocdir}/%{name}
 %{_javadocdir}/%{name}
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 01.0.14-5
+- Mass rebuild 2013-12-27
+
 * Fri Jul 12 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 0:1.0.14-4
 - Remove workaround for rpm bug #646523
 
